@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="2"
+            android:id="@+id/my_profile"
+            android:src="@drawable/hamster"
+         />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Tao Ning, Ruoxi Zhao, Shishi Fu"
+            android:gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:text="CIS 600"
+            android:gravity="center"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<android.support.v4.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:background="#fff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></include>
+
+    <FrameLayout
+        android:id="@+id/container_frontPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/drawer"
+    android:layout_gravity="left"
+    android:layout_width="290dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/front_bus"
+        android:scaleType="fitXY" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/drawer_home"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Home"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_menu_home"
+                android:background="@android:color/transparent"/>
+            <!--<Button
+                android:id="@+id/drawer_editprofile"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Edit Profile"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_edit"/>-->
+
+            <Button
+                android:id="@+id/drawer_schedule"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Schedule"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_time"/>
+
+            <Button
+                android:id="@+id/drawer_search"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Search"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_search"/>
+
+            <Button
+                android:id="@+id/drawer_report"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Users List"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_about"/>
+
+            <Button
+                android:id="@+id/drawer_contact"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Contact us"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_phone"/>
+
+            <Button
+                android:id="@+id/drawer_setting"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Setting"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_settings"/>
+            <Button
+                android:id="@+id/drawer_logout"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Log Out"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_action_cancel"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- <android.support.v7.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/drawer_list">
+     </android.support.v7.widget.RecyclerView>
+-->
+</LinearLayout>
+
+</android.support.v4.widget.DrawerLayout >

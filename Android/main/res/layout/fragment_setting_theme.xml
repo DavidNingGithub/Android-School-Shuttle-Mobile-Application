@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Default Background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/orangedot"
+        android:id="@+id/defaultBack"
+        android:layout_below="@+id/text_default"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Set Background Color"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pinkdot"
+                android:id="@+id/pink"
+                android:layout_margin="30dp"
+                android:layout_below="@+id/text_theme"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/yellowdot"
+                android:id="@+id/yellow"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignTop="@+id/pink"
+                android:layout_toEndOf="@+id/pink" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/bluedot"
+                android:id="@+id/blue"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignTop="@+id/yellow"
+                android:layout_toEndOf="@+id/yellow" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/greendot"
+                android:id="@+id/green"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_below="@+id/pink"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="87dp"
+                android:id="@+id/gray"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="135dp" />
+
+
+    </RelativeLayout>
+    </LinearLayout>

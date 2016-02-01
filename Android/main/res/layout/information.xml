@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.apple.lab5.SampleFragment"
+    android:background="#ffffffff">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/Relativelayout">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/icon2"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="User Information"
+            android:textColor="#ffff1318"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_below="@id/imageView"
+            android:clickable="false"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="5dp"
+            android:text="Name : "
+            android:gravity="right|center"
+            android:textSize="22dp"
+            android:id="@+id/Name"
+            android:textColor="#ff000000"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textSize="20dp"
+            android:id="@+id/First"
+            android:layout_alignTop="@+id/Name"
+            android:layout_toEndOf="@+id/Name" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/First"
+            android:layout_marginTop="15dp"
+            android:text="Username : "
+            android:gravity="right|center"
+            android:textSize="22dp"
+            android:id="@+id/UserName"
+            android:textColor="#ff000000"/>
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textSize="20dp"
+            android:id="@+id/username1"
+            android:layout_alignTop="@+id/UserName"
+            android:layout_toEndOf="@+id/UserName" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/username1"
+            android:layout_marginTop="15dp"
+            android:text="Password : "
+            android:gravity="right|center"
+            android:textSize="22dp"
+            android:id="@+id/Password"
+            android:textColor="#ff000000"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:text=""
+            android:textSize="20dp"
+            android:id="@+id/password1"
+            android:layout_alignTop="@+id/Password"
+            android:layout_toEndOf="@+id/Password" />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/password1"
+            android:layout_marginTop="15dp"
+            android:text="Age : "
+            android:gravity="right|center"
+            android:textSize="22dp"
+            android:id="@+id/Age"
+            android:textColor="#ff000000"/>
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_alignTop="@id/Age"
+            android:layout_toEndOf="@+id/Age"
+            android:id="@+id/age1"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/age1"
+            android:layout_marginTop="15dp"
+            android:text="Gender : "
+            android:gravity="right|center"
+            android:textSize="22dp"
+            android:id="@+id/Gender"
+            android:textColor="#ff000000"/>
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_alignTop="@id/Gender"
+            android:layout_toEndOf="@+id/Gender"
+            android:id="@+id/gender1"/>
+    </RelativeLayout>
+
+</ScrollView>

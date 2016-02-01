@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SUBusApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="select_bus">Select a Bus</string>
+    <string name="select_location">Select a Station</string>
+    <string name="title_activity_activity__view_pager">ViewPager</string>
+    <string name="title_activity_activity__master_detail">RecyclerView</string>
+    <string name="title_activity_activity__tool_bar">ToolBar</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="title_activity_activity__grid_view">Activity_GridView</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="Locationtype1">Nobhill</string>
+    <string name="Locationtype2">James Street</string>
+    <string name="Locationtype3">East Campus</string>
+    <string name="Locationtype4">Destiny</string>
+    <string name="title_activity_comment">Comment</string>
+    <string name="title_activity_master_view">MasterView</string>
+    <string name="title_activity_view_pager">ViewPager</string>
+    <string name="title_activity_view_page">ViewPageActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="pull_to_refresh">Pull to Refresh</string>
+    <string name="release_to_refresh">Release to Refresh</string>
+    <string name="refreshing">Refreshing....</string>
+    <string name="not_updated_yet">Not updated yet</string>
+    <string name="updated_at"> </string>
+    <string name="updated_just_now"> </string>
+    <string name="time_error">Time Error</string>
+</resources>

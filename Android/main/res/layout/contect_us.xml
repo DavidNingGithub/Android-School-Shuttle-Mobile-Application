@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Your Suggestion"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/boundary"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:gravity="fill_horizontal|fill_vertical"
+        android:id="@+id/suggestion">
+    </EditText>
+
+        <TextView
+            android:id="@+id/send"
+            android:layout_height="32dp"
+            android:layout_width="52dp"
+            android:text="Send"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/orangebutton">
+        </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="          Email: shishi@syr.edu"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="                       taoning@syr.edu"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="                       roxie@syr.edu"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

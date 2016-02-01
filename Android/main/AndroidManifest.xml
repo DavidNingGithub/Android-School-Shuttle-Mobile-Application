@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shi.subusapp">
+    <uses-sdk
+    android:minSdkVersion="16"
+    android:targetSdkVersion="15"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_ViewPager"
+            android:label="@string/title_activity_activity__view_pager" >
+        </activity>
+        <activity
+            android:name=".Activity_MasterDetail"
+            android:label="@string/title_activity_activity__master_detail" >
+        </activity>
+        <activity
+            android:name=".Activity_ToolBar"
+            android:label="@string/title_activity_activity__tool_bar"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".Activity_GridView"
+            android:label="@string/title_activity_activity__grid_view" >
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".Comment"
+            android:label="@string/title_activity_comment" >
+        </activity>
+        <activity
+            android:name=".MasterView"
+            android:label="@string/title_activity_master_view" >
+        </activity><!--
+        <activity
+            android:name=".ViewPager"
+            android:label="@string/title_activity_view_pager" >
+        </activity>-->
+        <activity
+            android:name=".ViewPageActivity"
+            android:theme="@style/AppTheme2"
+            android:label="User Information" >
+        </activity>
+        <activity
+            android:name=".CommentActivity"
+            android:label="@string/title_activity_comment" >
+        </activity>
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+
+    </application>
+
+</manifest>

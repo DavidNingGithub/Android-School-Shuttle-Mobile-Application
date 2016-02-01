@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".FrontPageActivity">
+<item android:id="@+id/bus_gone" android:title="The bus has gone"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/bus_not_gone" android:title="The bus has not gone"
+        android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/wrong_info" android:title="Wrong report"
+    android:orderInCategory="100" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.apple.lab5.Activity_ToolBar">
+    <item
+        android:id="@+id/tools"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/tools"
+        android:title="Pen"/>
+    <item
+        android:id="@+id/tools1"
+        android:title="Setting"
+        android:orderInCategory="105"
+        app:showAsAction="always"
+        android:icon="@drawable/cars"/>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

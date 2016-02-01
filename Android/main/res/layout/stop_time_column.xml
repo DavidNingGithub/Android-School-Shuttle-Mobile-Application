@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFFF6F">
+        <TextView
+            android:id="@+id/stop_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:textSize="30dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Stop Name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#3C3C3C" />
+        <!--<ImageView
+            android:id="@+id/refresh_stops"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/refresh_icon"
+            android:scaleType="fitXY"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />-->
+    </RelativeLayout>
+    <com.example.shi.subusapp.RefreshableView
+        android:id="@+id/refreshable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <ListView
+        android:id="@+id/time_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"/>
+    </com.example.shi.subusapp.RefreshableView>
+</LinearLayout>

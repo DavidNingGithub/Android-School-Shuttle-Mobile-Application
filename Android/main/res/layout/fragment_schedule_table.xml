@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shelf1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Nob Hill"
+                android:textColor="#fff"
+                android:id="@+id/nobhill"
+                android:gravity="center_vertical|center"
+                android:background="@drawable/book"
+                android:layout_margin="7dp"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="East Campus"
+                android:textColor="#fff"
+                android:id="@+id/eastcampus"
+                android:gravity="center_vertical|center"
+                android:background="@drawable/book"
+                android:layout_margin="7dp"
+                android:layout_toRightOf="@+id/nobhill"/>
+
+            <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Jams \nStreet"
+            android:textColor="#fff"
+            android:id="@+id/jamsstreet"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/book"
+            android:layout_margin="7dp"
+            android:layout_toRightOf="@+id/eastcampus"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Manley"
+                android:textColor="#fff"
+                android:id="@+id/manley"
+                android:gravity="center_vertical|center"
+                android:background="@drawable/book"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignTop="@+id/jamsstreet"
+                android:layout_toEndOf="@+id/jamsstreet" />
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Quad \nShuttle"
+            android:textColor="#fff"
+            android:id="@+id/quadshuttle"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/book"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/nobhill"
+            android:layout_alignLeft="@+id/nobhill"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Skyhall"
+            android:textColor="#fff"
+            android:id="@+id/Skyhall"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/book"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/eastcampus"
+            android:layout_alignLeft="@+id/eastcampus"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="South \nCampus"
+            android:textColor="#fff"
+            android:id="@+id/SouthCampus"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/book"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/jamsstreet"
+            android:layout_alignLeft="@+id/jamsstreet"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Waverly"
+            android:textColor="#fff"
+            android:id="@+id/Waverly"
+            android:gravity="center_vertical|center"
+            android:background="@drawable/book"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/manley"
+            android:layout_alignLeft="@+id/manley" />
+    </RelativeLayout>
+    </LinearLayout>
